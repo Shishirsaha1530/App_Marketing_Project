@@ -1,0 +1,41 @@
+.nav-item{
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black !important;
+}
+.nav-item a{
+    color: black !important;
+    border-radius: 2%;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: bold;
+}
+.navbar-brand  .app{
+    color: rgb(151, 151, 10);
+}
+.nav-link:hover{
+    background: linear-gradient(90deg, rgba(9,111,121,1) 39%, rgba(71,201,112,1) 100%)purple;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn_get_started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color:white;
+    border: 2px solid rgb(92, 20, 209);
+    text-decoration: none;
+    background-color: rgb(92, 20, 209) ;
+    display: inline;
+}
+
+.menu_Item{
+    font-weight: bold;
+    border-bottom: 1px solid purple;
+}

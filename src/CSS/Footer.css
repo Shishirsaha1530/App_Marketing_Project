@@ -1,0 +1,37 @@
+.downImg{
+    height: 55px !important ;
+    width: 185px !important;
+}
+
+.footerSection{
+    background: url(../image/FooterI/footerBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    margin-top: -35px !important;
+}
+
+.footerCap{
+font-size: 30pt;
+color: rgba(252, 174, 97, 255);
+}
+
+.footerSpan{
+    font-size: 30pt;
+    color: white; 
+}
+
+.foterMenu ul li{
+    display: inline;
+    color: white;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.foterMenu ul li:hover{
+    background-color: green;
+    padding: 10px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    border-radius: 10px;
+}

@@ -1,0 +1,391 @@
+.heading{
+    border-radius: 30px;
+    width: 280px;
+}
+
+.headingApp{
+    font-weight: bolder !important;
+    letter-spacing: 2px !important;
+    font-size: 40px;
+}
+.lead{
+    color: black !important;
+}
+.btn_get_started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color:white;
+    border: 2px solid rgb(92, 20, 209);
+    text-decoration: none;
+    background-color: rgb(92, 20, 209) ;
+    display: inline;
+}
+.btn_get_started:hover{
+    background: rgb(9,111,121);
+    background: linear-gradient(90deg, rgba(9,111,121,1) 39%, rgba(71,201,112,1) 100%);
+    border: 2px solid rgb(9,111,121);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    text-decoration: none;
+    display: inline;
+}
+.playVideo{
+    display: inline;
+    color: purple !important;
+}
+.playVideo:hover{
+    color: black !important;
+    cursor: pointer;
+}
+.homePage{
+    background-image: url(../image/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.vert-move{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0% {
+        transform: translateY(18px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+ }
+
+ @keyframes up-down{
+    0% {
+        transform: translateY(18px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+
+ }
+
+ .trusted_companies{
+     font-size: 16px;
+     color: rgba(36, 47, 81, 255);
+     letter-spacing: 3px;
+     font-weight: bold;
+ }
+
+ .trusted_img1{
+     width: 133px !important ;
+     height: 42px !important;
+ }
+ .trusted_img2{
+    width: 118px !important;
+    height: 84px !important;
+}
+.trusted_img3{
+    width: 151px !important;
+    height: 58px !important;
+}
+.trusted_img4{
+    width: 123px !important;
+    height: 71px !important;
+}
+.trusted_img5{
+    width: 147px !important;
+    height: 51px !important;
+}
+.awesomeTitle{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.awesomeIMg{
+    width: 55px !important;
+    height: auto ;
+    margin-top: 30px  !important;
+}
+.smart_title{
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.jackpots{
+    border-right: 1px solid black;
+}
+.smart_text{
+    margin-left: 30px;
+}
+.network_img{
+    width: 50px !important;
+    height: 50px !important ;
+}
+
+.chooseImg{
+    width: 58px !important;
+    height: 58px !important;   
+}
+.chooseCard:hover{
+    background-color: rgb(48, 223, 48) !important ;
+    color: white;
+    transition: 0.4s;
+    box-shadow: 0 0 10px 5px rgb(143, 16, 136);
+    cursor: pointer;
+}
+.featureImg{
+    width: 70px !important;
+    height: 50px !important;
+}
+
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1{
+    position: relative;
+    width: 458px;
+    height: 600px;
+}
+
+.image2{
+    position: absolute;
+    width: 461px;
+    height: 700px;
+    left: 200px;
+}
+.feature_text{
+    font-size: 15px !important;
+}
+
+.radio-button{
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+}
+.radio-button input[type=radio]{
+    margin: auto;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.radio-button label{
+    color: rgb(19, 2, 16);
+    background: white;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.radio-button label:before{
+    content: "";
+    background: rgb(76, 13, 192);
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: scaleX(0);
+    transform-origin: left center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.radio-button label:nth-child(2):before{ transform-origin: right center; }
+.radio-button input[type=radio]:checked+label{ color: #fff; }
+.radio-button input[type=radio]:checked+label:before{
+    opacity: 1;
+    transform: scaleX(1);
+}
+@media only screen and (max-width:767px){
+    .radio-button{ margin: 0 0 20px; }
+}
+.pricingTable{
+    background: linear-gradient(#fff,#f1f1f1);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 0 0 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px -10px #fff;
+}
+.pricingTable .pricingTable-header{
+    color: #fff;
+    background: #f55c78;
+    padding: 25px 10px 40px;
+    border-radius: 14px 14px 0 0;
+}
+.pricingTable .title{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+.pricingTable .price-value{
+    color: #f55c78;
+    background: #fff;
+    font-size: 45px;
+    line-height: 45px;
+    padding: 5px;
+    width: 80%;
+    margin: -32px auto 20px;
+    border-radius: 50px;
+    border: 2px solid #f55c78;
+}
+.pricingTable .pricing-content{
+    padding: 0;
+    margin: 0 0 20px;
+    list-style: none;
+    display: inline-block;
+}
+.pricingTable .pricing-content li{
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    border-bottom: 2px solid #111;
+}
+.pricingTable .pricing-content li:last-child{
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.pricingTable .pricingTable-signup a{
+    color:#fff;
+    background:#f55c78;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 80%;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.pricingTable .pricingTable-signup a:hover{
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.pricingTable.blue .pricingTable-header,
+.pricingTable.blue .pricingTable-signup a{
+    background: #279CFC;
+}
+.pricingTable.blue .price-value{
+    color: #279CFC;
+    border-color: #279CFC;
+}
+.pricingTable.purple .pricingTable-header,
+.pricingTable.purple .pricingTable-signup a{
+    background: #744EA5;
+}
+.pricingTable.purple .price-value{
+    color: #744EA5;
+    border-color: #744EA5;
+}
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 40px; }
+}
+
+.orOption{
+    color:#279CFC ;
+}
+
+.CSatisBg{
+   background-image: url(../image/mapBg.png);
+   height: 502px;
+   width: 823px ;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+.csOne{
+
+    width: 73px !important;
+    height: 73px !important;
+    margin-left: 290px !important;
+    margin-top: -10px !important;
+    border-radius: 50%; 
+    display: block;
+}
+.csTwo{
+    width: 58px !important;
+    height: 58px !important;
+    margin-left: 77%;
+    margin-top: -20px;
+    border-radius: 50%;
+    
+}
+
+.csThree{
+    width: 62px !important;
+    height: 63px !important;
+    border-radius: 50%;
+    margin-left: 40px;
+    display: block;
+}
+.csFour{
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    margin-left: 40%;
+    display: block;
+}
+ .csFive{
+     width: 106px;
+     height: 104px;
+     border-radius: 50%;
+     margin-left: 10%;
+     margin-top: -8%;
+     display:block;
+ }
+
+ .csSix{
+    width: 87px;
+    height: 85px;
+    border-radius: 50%;
+    margin-left: 65%;
+    margin-top: -12%;
+    display: block;
+ }
+ .csSeven{
+    width: 138px !important;
+    height: 130px !important;
+    border-radius: 50%;
+    display: block;
+    margin-left: 230px;
+    margin-top: 7%;
+ }
+ .cspara{
+     text-align: left;
+     font-size: 16px;
+     color: rgba(97, 99, 104, 255);
+ }
+
+ .testImgOne{
+     width: 68px !important;
+     height: 68px !important;
+     border-radius: 50%;
+    
+ }
+ .testBtn:hover{
+     color: green;  
+ }
