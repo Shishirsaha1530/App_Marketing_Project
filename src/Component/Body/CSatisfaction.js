@@ -19,7 +19,7 @@ const CSatisfaction = () => {
     return (
         <div className='customerSatisfaction my-4 pt-5'>   
         <div className='row'>
-        <div className='col-md-7 col-12 CSatisBg mt-5' data-aos="fade-up-right">
+        <div className='col-md-7 col-12 CSatisBg mt-5 d-none d-md-block' data-aos="fade-up-right">
     <img src={CS1} alt="" className='img-fluid csOne' />
     <img src={CS3} alt="" className='img-fluid csTwo' /> <br />
     <img src={CS2} alt="" className='img-fluid csThree' />

@@ -55,7 +55,7 @@ const AppFeature = () => {
                 }
                 <button className='btn_get_started mt-3'> See All </button>
                 </div>
-                <div className='col-md-6 col-12 mt-5 pt-3 mx-auto' data-aos="flip-right" data-aos-duration="3000">
+                <div className='col-md-6 col-12 mt-5 pt-3 mx-auto d-none d-md-block' data-aos="flip-right" data-aos-duration="3000">
               <div className='parent'>
               <img src={featureimgone} alt="" className='image1'/>
               <img src={featureimgtwo} alt="" className='image2' />
